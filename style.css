@@ -35,7 +35,7 @@ body {
 .content {
   background: transparent;
   background-size: cover;
-  padding-top: 10% !important;
+  padding-top: 20% !important;
 }
 
 .login-form {
@@ -475,7 +475,7 @@ error {
     display: flex !important;
     justify-content: center !important;
     align-items: flex-start !important;
-    padding-top: 10% !important;
+    padding-top: 20% !important;
   }
 
   .login-form {
@@ -518,7 +518,7 @@ error {
     display: flex !important;
     justify-content: center !important;
     align-items: flex-start !important;
-    padding-top: 10% !important;
+    padding-top: 20% !important;
   }
 
   .login-form {
@@ -550,7 +550,7 @@ body {
     display: flex !important;
   justify-content: center !important;
   align-items: flex-start!important;
-  padding-top: 10% !important;
+  padding-top: 20% !important;
   }
   
   .login-form {
@@ -583,7 +583,7 @@ body {
     display: flex !important;
   justify-content: center !important;
   align-items: flex-start!important;
-  padding-top: 10% !important;
+  padding-top: 25% !important;
   }
   
   .login-form {
