@@ -550,11 +550,11 @@ body {
     display: flex !important;
   justify-content: center !important;
   align-items: flex-start!important;
-  padding-top: 440px !important;
+  padding-top: 10% !important;
   }
   
   .login-form {
-    transform: scale(1.8) !important;
+    transform: scale(1.4) !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
