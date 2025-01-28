@@ -35,7 +35,7 @@ body {
 .content {
   background: transparent;
   background-size: cover;
-  padding-top: 50px !important;
+  padding-top: 10% !important;
 }
 
 .login-form {
