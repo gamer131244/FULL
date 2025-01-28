@@ -475,7 +475,7 @@ error {
     display: flex !important;
     justify-content: center !important;
     align-items: flex-start !important;
-    padding-top: 440px !important;
+    padding-top: 10% !important;
   }
 
   .login-form {
@@ -518,7 +518,7 @@ error {
     display: flex !important;
     justify-content: center !important;
     align-items: flex-start !important;
-    padding-top: 70px !important;
+    padding-top: 10% !important;
   }
 
   .login-form {
@@ -583,7 +583,7 @@ body {
     display: flex !important;
   justify-content: center !important;
   align-items: flex-start!important;
-  padding-top: 540px !important;
+  padding-top: 10% !important;
   }
   
   .login-form {
