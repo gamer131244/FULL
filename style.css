@@ -1,4 +1,4 @@
-yuphtml {
+html {
   user-select: none;
   font-family: "Barlow Semi Condensed", "serif";
 }
@@ -35,7 +35,11 @@ body {
 .content {
   background: transparent;
   background-size: cover;
-  padding-top: 30vh !important;
+  padding-top: 20vh !important;
+  display: flex !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    padding-top: 15vh !important;
 }
 
 .login-form {
@@ -475,7 +479,7 @@ error {
     display: flex !important;
     justify-content: center !important;
     align-items: flex-start !important;
-    padding-top: 30vh !important;
+    padding-top: 20vh !important;
   }
 
   .login-form {
@@ -518,7 +522,7 @@ error {
     display: flex !important;
     justify-content: center !important;
     align-items: flex-start !important;
-    padding-top: 30vh !important;
+    padding-top: 20vh !important;
   }
 
   .login-form {
@@ -534,7 +538,6 @@ error {
 /* Large screens (laptops/desktops) */
 @media (min-width: 900px) {
 body {
-    background-size: cover;
     overflow: hidden;
   margin: 0;
   padding: 0;
@@ -550,11 +553,11 @@ body {
     display: flex !important;
   justify-content: center !important;
   align-items: flex-start!important;
-  padding-top: 30vh !important;
+  padding-top: 20vh !important;
   }
   
   .login-form {
-    transform: scale(1.4) !important;
+    transform: scale(1.8) !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
@@ -567,11 +570,10 @@ body {
 /* Extra large screens */
 @media (min-width: 1200px) {
 body {
-    background-size: cover;
     overflow: hidden;
   margin: 0;
   padding: 0;
-  background-size: cover; /* Image ko screen ke hisaab se adjust karega */
+  ; /* Image ko screen ke hisaab se adjust karega */
   background-position: center; /* Image ko center karega */
   background-repeat: no-repeat; /* Image repeat nahi karegi */
   height: 100vh; /* Full screen height set karega */
@@ -583,7 +585,7 @@ body {
     display: flex !important;
   justify-content: center !important;
   align-items: flex-start!important;
-  padding-top: 35vh !important;
+  padding-top: 20vh !important;
   }
   
   .login-form {
@@ -593,3 +595,36 @@ body {
     align-items: center !important;
   }
 }
+
+
+
+
+
+@media (max-width: 300px) {
+body {
+    overflow: hidden;
+  margin: 0;
+  padding: 0;
+  ; /* Image ko screen ke hisaab se adjust karega */
+  background-position: center; /* Image ko center karega */
+  background-repeat: no-repeat; /* Image repeat nahi karegi */
+  height: 100vh; /* Full screen height set karega */
+  width: 100%; /* Full screen width set karega */
+  overflow: hidden; /* Extra scroll remove karega */
+  }
+  
+  .content {
+    display: flex !important;
+  justify-content: center !important;
+  align-items: flex-start!important;
+  padding-top: 15vh !important;
+  }
+  
+  .login-form {
+    transform: scale(0.5) !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+
