@@ -483,7 +483,7 @@ error {
   }
 
   .login-form {
-    transform: scale(1.8) !important;
+    transform: scale(1.5) !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
@@ -526,7 +526,7 @@ error {
   }
 
   .login-form {
-    transform: scale(1.6) !important;
+    transform: scale(1.4) !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
@@ -557,7 +557,7 @@ body {
   }
   
   .login-form {
-    transform: scale(1.8) !important;
+    transform: scale(1.6) !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
@@ -589,7 +589,7 @@ body {
   }
   
   .login-form {
-    transform: scale(2.2) !important;
+    transform: scale(2) !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
@@ -627,4 +627,67 @@ body {
     align-items: center !important;
   }
 }
+
+
+@media (max-width: 600px) {
+body {
+    overflow: hidden;
+  margin: 0;
+  padding: 0;
+  ; /* Image ko screen ke hisaab se adjust karega */
+  background-position: center; /* Image ko center karega */
+  background-repeat: no-repeat; /* Image repeat nahi karegi */
+  height: 100vh; /* Full screen height set karega */
+  width: 100%; /* Full screen width set karega */
+  overflow: hidden; /* Extra scroll remove karega */
+  }
+  
+  .content {
+    display: flex !important;
+  justify-content: center !important;
+  align-items: flex-start!important;
+  padding-top: 15vh !important;
+  }
+  
+  .login-form {
+    transform: scale(0.6) !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+
+
+
+@media (max-height: 600px) {
+body {
+    overflow: hidden;
+  margin: 0;
+  padding: 0;
+  ; /* Image ko screen ke hisaab se adjust karega */
+  background-position: center; /* Image ko center karega */
+  background-repeat: no-repeat; /* Image repeat nahi karegi */
+  height: 100vh; /* Full screen height set karega */
+  width: 100%; /* Full screen width set karega */
+  overflow: hidden; /* Extra scroll remove karega */
+  }
+  
+  .content {
+    display: flex !important;
+  justify-content: center !important;
+  align-items: flex-start!important;
+  padding-top: 15vh !important;
+  }
+  
+  .login-form {
+    transform: scale(1.2) !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+
+
+
+
 
